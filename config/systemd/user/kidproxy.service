@@ -1,12 +1,11 @@
 [Unit]
-Description=Tinyproxy Web Proxy Server for Kids
+Description=Update Kidproxy
 After=network.target
 
 [Service]
-WorkingDirectory=%h/.config/tinyproxy
-ExecStart=/usr/bin/tinyproxy -d -c tinyproxy.conf
-ExecReload=/usr/bin/kill -USR1 $MAINPID
+ExecStart=%h/.local/share/kidproxy/bin/update.zsh
 PrivateDevices=yes
+Type=oneshot
 
 [Install]
 WantedBy=default.target
