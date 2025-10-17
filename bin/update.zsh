@@ -4,7 +4,7 @@ KIDPROXY="$HOME/.local/share/kidproxy"
 TINYPROXY="$HOME/.config/tinyproxy"
 
 filter() {
-	echo "Filter $1"
+	echo "Filter $1 for $USER"
 
 	filter=$KIDPROXY/config/tinyproxy/filters-$1
 	link=$TINYPROXY/filters
@@ -20,7 +20,7 @@ filter() {
 cd ${0:A:h}/..
 git pull
 
-policyTimestamp=$(date -d "$(</tmp/testdate)" +%s)
+policyTimestamp=$(date -d "$(<policies/$USER)" +%s)
 currentTimestamp=$(date +%s)
 if (( $currentTimestamp < $policyTimestamp )); then
 	filter maximum
