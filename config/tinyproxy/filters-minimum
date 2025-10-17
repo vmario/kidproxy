@@ -1,36 +1,40 @@
 # Edukacja
-deepl.com
-gwo.pl
-klawiatur.pl
-librus.pl
-nowaera.pl
-wikimedia.org
-wikipedia.org
-swiatkolorowanek.pl
+deepl\.com
+gwo\.pl
+klawiatur\.pl
+librus\.pl
+nowaera\.pl
+wikimedia\.org
+wikipedia\.org
+swiatkolorowanek\.pl
 
 # Narzędzia
-gmail.com
-google.com
-google.pl
-meteo.pl
-perplexity.ai
-whatsapp.com
-whatsapp.net
-windy.com
+gmail\.com
+google\.com
+google\.pl
+meteo\.pl
+perplexity\.ai
+whatsapp\.com
+whatsapp\.net
+windy\.com
 
 # Systemowe
-archlinux.org
-github.com
-addons.mozilla.org
-developer.mozilla.org
+archlinux\.org
+github\.com
+
+# Mozilla
+addons\.mozilla\.org
+aus[0-9]*\.mozilla\.org
+developer\.mozilla\.org
+firefox\.settings\.services\.mozilla\.com
 
 # CDN
-cdn.net
-cloudflare.net
-cloudflare.com
-cloudfront.net
-fastly.net
-googleapis.com
-googleusercontent.com
-gstatic.com
-jquery.com
+cdn\.net
+cloudflare\.net
+cloudflare\.com
+cloudfront\.net
+fastly\.net
+googleapis\.com
+googleusercontent\.com
+gstatic\.com
+jquery\.com
