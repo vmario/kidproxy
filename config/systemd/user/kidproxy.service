@@ -3,7 +3,7 @@ Description=Update Kidproxy
 After=network.target
 
 [Service]
-ExecStart=%h/.local/share/kidproxy/bin/update.zsh
+ExecStart=/bin/zsh %h/.local/share/kidproxy/bin/update.zsh
 PrivateDevices=yes
 Type=oneshot
 
