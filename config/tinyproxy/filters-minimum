@@ -1,5 +1,6 @@
 # Edukacja
 deepl\.com
+eduranga\.pl
 gwo\.pl
 klawiatur\.pl
 librus\.pl
@@ -7,6 +8,7 @@ nowaera\.pl
 wikimedia\.org
 wikipedia\.org
 swiatkolorowanek\.pl
+wsip\.pl
 
 # Narzędzia
 gmail\.com
@@ -21,6 +23,7 @@ windy\.com
 # Systemowe
 archlinux\.org
 github\.com
+github\.io
 
 # Mozilla
 addons\.mozilla\.org
@@ -38,4 +41,6 @@ googleapis\.com
 googleusercontent\.com
 gstatic\.com
 jquery\.com
+cdn\.jsdelivr\.net
 cdn\.mozilla\.net
+cdn\.statically\.io
