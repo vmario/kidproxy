@@ -30,6 +30,7 @@ addons\.mozilla\.org
 aus[0-9]*\.mozilla\.org
 developer\.mozilla\.org
 services\.mozilla\.com
+firefox\.com
 
 # CDN
 cdn\.net
